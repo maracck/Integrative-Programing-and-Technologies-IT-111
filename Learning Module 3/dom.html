@@ -5,8 +5,12 @@
     <title>Hands-On 3</title>
     <script src="dom.js"></script>
 </head>
-<body>
-    <h1>Lesson 3: Document Object Model</h1>
-    
-</body>
+    <body style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center;">
+        <h1>Lesson 3: Document Object Model</h1>
+        <input type="button" onclick="randomButton()" value="Press this button to generate random new paragraph">
+        
+        <p style="padding-left: 50px; padding-right: 50px;" id="changeThis">This is a text within a paragarpgh. If you want to change this, Just click the button below or above and type in a new paragarpgh to replace this. </p>
+        
+        <button onclick="changeparagraph()">Press this button to type in the new paragraph</button>       
+    </body>
 </html>
